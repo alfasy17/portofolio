@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator sederhana</title>
+  </head>
+  <body>
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.3.8-dist/css/bootstrap.min.css"
+    />
+    <h1>Kalkulator Sederhana</h1>
+    <h2>Ell poenya</h2>
+    <input type="number" id="1" placeholder="bilangan pertama" />
+    <input type="number" id="2" placeholder="bilangan kedua" />
+    <button onclick="Tambah()">+</button>
+    <button onclick="">-</button>
+    <button onclick="">*</button>
+    <button onclick="">/</button>
+    <br />
+    <h2>Hasil: <span id="hasil">0</h2></span>
+
+    <script>
+    function Tambah(){
+    let a: Number(document.getElementById("1").value);
+    let b:Number(document.getElementById("2").value);
+    document.getElementById("hasil").innerText =   a + b;
+
+    }
+    </script>
+  </body>
+</html>

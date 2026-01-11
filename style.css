@@ -1,4 +1,7 @@
 #bg-btn {
   background-color: white;
-  text-color: black;
+  color: black;
+}
+#gambar {
+  width: 200px;
 }
